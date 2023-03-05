@@ -56,7 +56,7 @@ body {
 .video1 {
     display:grid;
     grid-template-columns: 70% 30%;
-    background-image: url(/image/back-image.jpg);
+    background-image: url(./image/back-image.jpg);
     margin:30px;
 
 }
