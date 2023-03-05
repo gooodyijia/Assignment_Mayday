@@ -1,0 +1,129 @@
+body {
+    margin: 0%;
+}
+
+.home-header {
+    list-style: none;
+    margin: 0%;
+    padding:0%;
+    overflow:hidden;
+    background-color: lightblue;
+}
+
+.home-menu {
+    float:right;}
+
+.home-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+.home-image1 {
+    filter: grayscale(100%);
+}
+.home-image1:hover {
+    filter: grayscale(0%);
+}
+
+
+.home-p2 {
+    background:linear-gradient(white,lightblue);
+}
+
+.logo {
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.home-text {
+    color:darkslategray;
+    font-family:fantasy;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.home-text:hover {
+    color:lightblue;
+}
+
+.home-video {
+    margin:30px;
+}
+
+.video1 {
+    display:grid;
+    grid-template-columns: 70% 30%;
+    background-image: url(/image/back-image.jpg);
+    margin:30px;
+
+}
+
+.lyric1 {
+    font-family: sans-serif;
+    margin: 40px;
+    font-weight: lighter;
+    line-height: 2em;
+    text-align: left;
+}
+
+.video2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-image: url(/image/back-image.jpg);
+    margin:30px;
+}
+
+.lyric2 {
+    font-family: sans-serif;
+    margin: 40px;
+    font-weight: lighter;
+    line-height: 2em;
+    text-align: right;
+}
+
+footer {
+    font-size: smaller;
+}
+
+/* about页面 */
+.about-p2 {
+    background:linear-gradient(gray,lightblue);
+    margin:30px;
+}
+
+.about-p3 {
+    margin:30px;
+    background-image: url(/image/back-image.jpg);
+}
+
+.member1 {
+    display: grid;
+    grid-template-columns: 3.3fr 3.3fr 3.3fr;
+    text-align: center;
+}
+
+.about-image1 {
+    border-radius: 65%;
+}
+
+.about-image1:hover {
+    transform :translate(0px, -10px);
+}
+
+.member2 {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    text-align: center;
+}
+
+/*live&songs部分 */
+.live-p3 {
+    background:linear-gradient(white,lightblue);
+}
+
+.live-video {
+    margin:30px;
+}
