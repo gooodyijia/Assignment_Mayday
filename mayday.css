@@ -4,21 +4,34 @@ body {
 
 .home-header {
     list-style: none;
-    margin: 0%;
-    padding:0%;
+    margin: 0;
+    padding:0;
     overflow:hidden;
     background-color: lightblue;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 
 .home-menu {
     float:right;}
 
 .home-menu a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding:14px 16px;
+    padding:10px;
     text-decoration: none;
+    border-left: 1px solid white;
+}
+
+.home-menu a:hover {
+    background-color: darkred;
+}
+
+.p1-image {
+    display: grid;
+    grid-template-columns: 3.3fr 3.3fr 3.3fr;
 }
 
 .home-image1 {
